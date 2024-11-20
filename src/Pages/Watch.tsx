@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import VideoDetails from '../Components/VideoDetails'
 import MiniCard from '../Components/MiniCard'
 import { HomeVideoCardType } from '../utils/Types'
-import axios from 'axios'
 import { fetchVideosWithChannels } from '../utils/videoDetailsHelper'
 import Comments from '../Components/Comments'
 import { getActivities, getActvitiesVideos, getVideoDetails } from '../utils/api'
 
-const API_KEY = import.meta.env.VITE_API_KEY
 
 function Watch() {
     const { videoId, channelId } = useParams()
