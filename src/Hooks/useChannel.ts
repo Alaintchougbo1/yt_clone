@@ -42,7 +42,7 @@ export const useChannel = () => {
 
     }
 
-    const fetchChanneldata = async (channelId: string, p0: string) => {
+    const fetchChanneldata = async (channelId: string, _p0?: string) => {
         if (category == "videos") {
 
             const channelVideosResponse = await getActivities(channelId, channelVideoList!.nextPageToken!)
