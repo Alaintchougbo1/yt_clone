@@ -5,7 +5,6 @@ Ce projet utilise React avec TypeScript et Vite pour un développement rapide et
 ## Structure du Projet
 Still building the workspace index, response may be less accurate.
 
-Bien sûr, voici un exemple de README personnalisé pour votre dépôt:
 
 ```markdown
 # Mon Projet React + TypeScript + Vite
