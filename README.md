@@ -15,6 +15,7 @@ Ce projet utilise React avec TypeScript et Vite pour un développement rapide et
 ## Structure du Projet
 
 ```
+sh
 .env
 
 
@@ -36,8 +37,6 @@ public/
 
 README.md
 
-```
-sh
 src/
 	App.css
 	App.tsx
