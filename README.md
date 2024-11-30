@@ -38,24 +38,24 @@ public/
 README.md
 
 src/
-	App.css
-	App.tsx
-	assets/
-	Components/
-		Card.tsx
-		ChannelPlaylist.tsx
-		ChannelPlaylistCard.tsx
-		ChannelVideoCard.tsx
-		ChannelVideoList.tsx
-		CommentBody.tsx
-		CommentCard.tsx
-		Comments.tsx
-		Loading.tsx
-		MiniCard.tsx
-		Navbar.tsx
-		PlaylistItemCard.tsx
-		PlaylistItems.tsx
-		Sidebar.tsx
+src/App.css
+src/App.tsx
+src/assets/
+src/Components/
+src/Components/Card.tsx
+src/Components/ChannelPlaylist.tsx
+src/Components/ChannelPlaylistCard.tsx
+src/Components/ChannelVideoCard.tsx
+src/Components/ChannelVideoList.tsx
+src/Components/CommentBody.tsx
+src/Components/CommentCard.tsx
+src/Components/Comments.tsx
+src/Components/Loading.tsx
+src/Components/MiniCard.tsx
+src/Components/Navbar.tsx
+src/Components/PlaylistItemCard.tsx
+src/Components/PlaylistItems.tsx
+src/Components/Sidebar.tsx
 		...
 	Hooks/
 	index.css
@@ -81,7 +81,6 @@ tsconfig.node.json
 
 
 vite.config.ts
-```
 
 
 ```
