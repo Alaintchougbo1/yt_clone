@@ -1,3 +1,4 @@
+import React from 'react'
 import ChannelVideoCard from './ChannelVideoCard'
 import { HomeVideoCardType } from '../utils/Types'
 

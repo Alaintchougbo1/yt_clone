@@ -1,5 +1,7 @@
-import { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from '../Components/Card'
+import axios from 'axios'
+import { HomeVideoCardType } from '../utils/Types'
 import { useHome } from '../Hooks/useHome'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import Loading from '../Components/Loading'
