@@ -36,7 +36,8 @@ public/
 
 README.md
 
-
+```
+sh
 src/
 	App.css
 	App.tsx
@@ -81,6 +82,7 @@ tsconfig.node.json
 
 
 vite.config.ts
+```
 
 
 ```
