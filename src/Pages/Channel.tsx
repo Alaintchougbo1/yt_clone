@@ -23,7 +23,7 @@ function Channel() {
 
     useEffect(() => {
         fetchChannelInfo(channelId!)
-        fetchChanneldata(channelId!)
+        fetchChanneldata(channelId!, "")
     }, [category])
 
     return (
